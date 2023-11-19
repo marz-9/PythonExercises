@@ -1,4 +1,4 @@
-start=1
+"""start=1
 n=int(input("Enter a number: "))
 summ=0
 while(start<=n):
@@ -64,10 +64,10 @@ for i in range(1,5):
     print("*"*i)
     
 for i in range(4,0,-1):
-    print("*"*i)            
+    print("*"*i)   """         
 
 
-#exercise
+#Guess the number exercise
 i=0
 while(i == i):
     i=int(input("Enter a number: "))
@@ -78,6 +78,6 @@ while(i == i):
         print("Go up")
     elif (i > 19):
         print("Go Down")
-    
+
     
     
