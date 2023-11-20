@@ -19,7 +19,7 @@ else:
 #Question 2 Answer
 
 tuition = 10000
-year = 0
+year = 1
 
 while (year <= 10):
     year += 1
@@ -27,7 +27,7 @@ while (year <= 10):
     total = round(tuition, 3)
     if (year == 4):
         print("The tuition fee in fourth year is: $", total)
-        continue
+        continue  
 
 print("The tuition fee after ten years: $", total)
 

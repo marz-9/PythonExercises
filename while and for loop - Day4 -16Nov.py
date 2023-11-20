@@ -1,4 +1,4 @@
-"""start=1
+start=1
 n=int(input("Enter a number: "))
 summ=0
 while(start<=n):
@@ -6,6 +6,7 @@ while(start<=n):
     start+=1
 print("The sum = ", summ)
 
+#Sum of digits
 i=0
 n=input("Enter a number: ")
 summ=0
@@ -64,7 +65,7 @@ for i in range(1,5):
     print("*"*i)
     
 for i in range(4,0,-1):
-    print("*"*i)   """         
+    print("*"*i)         
 
 
 #Guess the number exercise
