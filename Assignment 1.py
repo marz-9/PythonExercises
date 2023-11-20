@@ -20,16 +20,17 @@ else:
 
 tuition = 10000
 year = 1
-
-while (year <= 10):
+totalcost=0
+while (year <= 14):
     year += 1
     tuition += (tuition * 5/100)
     total = round(tuition, 3)
-    if (year == 4):
-        print("The tuition fee in fourth year is: $", total)
-        continue  
+    if (year == 10):
+        print("The tuition fee in ten year is: $", total)
+    if (year > 10):
+        totalcost+=total     
 
-print("The tuition fee after ten years: $", total)
+print("The tuition fee after ten years: $", totalcost)
 
 
 #Question 3 Answer
