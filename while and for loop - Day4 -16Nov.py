@@ -6,7 +6,7 @@ while(start<=n):
     start+=1
 print("The sum = ", summ)
 
-#Sum of digits
+#Sum of digits as string
 i=0
 n=input("Enter a number: ")
 summ=0
@@ -15,6 +15,7 @@ while(i<len(n)):
     i+=1
 print("The sum = ", summ)
 
+#Sum of digits as integer
 i=0
 n=int(input("Enter a number: "))
 summ=0
