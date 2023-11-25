@@ -1,5 +1,5 @@
 #printing the index
-"""list_= [1,2,3,4]
+list_= [1,2,3,4]
 for i in range(len(list_)):
     print(i, end=" ")
 print()
@@ -80,16 +80,4 @@ li_x=[100,201,99,101]
 for k in li_x:
     if (k > 100):
         print(k, li_x.index(k))
-        break"""
-
-
-#exercise
-sides_number=input("Enter the dice side: ")
-
-
-def countInput(sides):
-    count= sides
-    
-    
-    
-  
+        break
