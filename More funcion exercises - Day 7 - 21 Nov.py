@@ -34,17 +34,15 @@ for chr1 in message:
         counter+=1
 print(counter)
 
-#count vowels and printing it capital(Not complete)
+#count vowels and printing it capital
 v="aoeui"
-counter = 0
 message=input("Enter a text:" )
 def vowelcounter(stri):
-    for chr1 in stri:
-        if(chr1 in v):
-            stri1 +=chr1.upper()
-        stri2= stri.replace(stri, stri1)
-    return stri2
-print(vowelcounter(message))
+    for old in stri:
+        if(old in v):
+            print(message.replace(old,old.upper()))
+        
+vowelcounter(message)
 
 
    
