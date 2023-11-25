@@ -1,4 +1,17 @@
+#Question 1 Decipher Message
+message="|rx#duh#juhdwh"
+x=0
+while(x<len(message)):
+    new=ord(message[x])-3
+    print(chr(new), end="")
+    x+=1
+    
 #Question 2 Star shape
+for i in range(1, 5):
+    print("*" * i)
+
+for i in range(5, 0, -1):
+    print("*" * i)
 
 #Question 3 Perfect number
 summ = 0
