@@ -99,13 +99,16 @@ while(True):
     w.append(n)
     if (n == "Q"):
         w.pop()
-        if(len(w) > len(words)):
-            print("The list of words entered is longer than the given list")
-            print(w)
-            print(words)
-            break
-        else:
-            print("The list of words entered is not longer than the given list")
-            print(w)
-            print(words)
-            break
+        for s in range (len(w)):
+            w.count(w[s])
+            if(len(w[s]) > len(words)):
+                print("The list of words entered is longer than the given list")
+                print(w[s],"length: ",len(w[s]))
+                print("The length of given list: ",len(words))
+
+
+            else:
+                print("The list of words entered is not longer than the given list")
+                print(w[s],len(w[s]))
+                print("The length of given list: ",len(words))
+        break
