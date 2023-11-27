@@ -93,6 +93,25 @@ print()
 
 #Question 10
 words=["Hello", "my", "favourite", "color", "is","Yellow"]
+n=int(input("Enter a number of length: "))
+def checkword(w,n):
+    result=[]
+    longer=[]
+    for s in range (len(w)):
+        if (n > len(w[s])):
+            result.append(w[s])
+        else:
+            longer.append(w[s])
+    print("The words from the list is not longer than the givn number: ",n)
+    print(result)
+    print("The words from the list are longer than the givn number: ",n)
+    print(longer)
+                
+checkword(words,n)
+
+
+
+"""words=["Hello", "my", "favourite", "color", "is","Yellow"]
 w=[]
 while(True):
     n=input("Enter a list of words, once done type 'Q': ")
@@ -111,4 +130,4 @@ while(True):
                 print("The list of words entered is not longer than the given list")
                 print(w[s],len(w[s]))
                 print("The length of given list: ",len(words))
-        break
+        break"""
